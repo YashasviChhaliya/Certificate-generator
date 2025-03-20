@@ -22,3 +22,9 @@ The goal of this project is to provide a decentralized and tamper-proof certific
 - **Immutability**: Once issued, certificates cannot be altered or removed.
 - **Public Accessibility**: Anyone can verify a certificate using the student's wallet address.
 
+## Contract Address:
+0xD2416469f0bb44F9066B1505d8d7F120759cB112
+
+![image](https://github.com/user-attachments/assets/6489eb61-0191-4a47-8e8a-28215aee8f2d)
+
+
