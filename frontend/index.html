@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Logo in the Top-Left Corner of the Page -->
+    <div class="logo">
+        <img src="Certificate_logo.png" alt="Logo">
+    </div>
+
     <div class="container">
         <h1>Blockchain Course Certificate</h1>
         <div class="form-container">
@@ -16,7 +22,9 @@
                 <input type="text" id="studentName" placeholder="Student Name">
                 <input type="text" id="courseName" placeholder="Course Name">
                 <input type="date" id="issueDate">
-                <button onclick="issueCertificate()">Issue Certificate</button>
+                <div class="button-container">
+                    <button onclick="issueCertificate()">Issue Certificate</button>
+                </div>
             </div>
             <div class="section">
                 <h2>Verify Certificate</h2>
@@ -26,7 +34,9 @@
             </div>
         </div>
     </div>
+    
     <script src="web3.min.js"></script>
     <script src="app.js"></script>
+
 </body>
 </html>
