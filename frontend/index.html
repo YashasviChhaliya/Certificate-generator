@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Certificate DApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blockchain Course Certificate</h1>
+        <div class="form-container">
+            <div class="section">
+                <h2>Issue Certificate</h2>
+                <input type="text" id="studentAddress" placeholder="Student Address">
+                <input type="text" id="studentName" placeholder="Student Name">
+                <input type="text" id="courseName" placeholder="Course Name">
+                <input type="date" id="issueDate">
+                <button onclick="issueCertificate()">Issue Certificate</button>
+            </div>
+            <div class="section">
+                <h2>Verify Certificate</h2>
+                <input type="text" id="verifyAddress" placeholder="Enter Student Address">
+                <button onclick="verifyCertificate()">Verify</button>
+                <div id="certificateDetails" class="certificate-info"></div>
+            </div>
+        </div>
+    </div>
+    <script src="web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
