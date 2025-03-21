@@ -9,9 +9,22 @@ body {
     margin: 0;
 }
 
+/* Logo Styling - Top Left Corner of Page */
+.logo {
+    position: fixed;
+    top: 20px;
+    left: 5px;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 200px;  /* Adjust size as needed */
+    height: auto;
+}
+
 .container {
     width: 60%;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(242, 244, 246, 0.9);
     padding: 20px;
     box-shadow: 0px 0px 10px gray;
     border-radius: 10px;
@@ -32,9 +45,16 @@ body {
 input {
     width: 80%;
     padding: 10px;
-    margin: 5px;
+    margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 button {
