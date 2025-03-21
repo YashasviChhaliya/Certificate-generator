@@ -30,6 +30,9 @@ The goal of this project is to provide a decentralized and tamper-proof certific
 ## User Interface:
 ![image](https://github.com/user-attachments/assets/157e6626-008f-4ed0-92f9-2cee22786055)
 
+![image](https://github.com/user-attachments/assets/54e2b859-fdfa-4b56-80ed-415047e64eb7)
+
+
 
 
 
